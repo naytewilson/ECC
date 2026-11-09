@@ -7,7 +7,7 @@ on:
         description: 'Operating system'
         required: false
         type: string
-        default: 'ubuntu-latest'
+        default: 'anvil-ci-linux'
       node-version:
         description: 'Node.js version'
         required: false

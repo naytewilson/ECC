@@ -161,7 +161,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [anvil-ci-linux, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
 
     steps:
